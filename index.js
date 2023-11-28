@@ -79,12 +79,12 @@ const questions = [
 // TODO: Create a function to write README file
 // TODO: Create a function to initialize app
 function init() {
-    return inquirer.createPromptModule(questions)
+    return inquirer.prompt(questions)
         .then((data) => {
             const markDown = generateMarkdown(data)
             fs.writeFile('generated-README.md', markDown, function(err) {
                 if (err) {
-                    console.log('File could be created', err)
+                    console.log('File could not be created', err)
                 } else {
                     console.log('Successfully created README file!')
                 }

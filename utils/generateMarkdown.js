@@ -9,16 +9,16 @@ function renderLicenseBadge(license) {
         Unlicense: '',
     }
     return badge[license]
-}
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     const link = {
-        Apache2: '(https://opensource.org/licenses/Apache-2.0)',
-        GNUGPL3: '(https://www.gnu.org/licenses/gpl-3.0)',
-        MIT: '(https://opensource.org/licenses/MIT)',
-        MozillaPublicLicense2: '(https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)(https://opensource.org/licenses/MPL-2.0)',
+        Apache2: '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)',
+        GNUGPL3: '![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)',
+        MIT: '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)',
+        MozillaPublicLicense2: '![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)',
         Unlicense: '',
     }
     return link[license]
@@ -28,7 +28,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if(license) {
-        return 'Licensed under ${renderLicenseLink(license)}'
+        return `Licensed under ${renderLicenseLink(license)}`
     } else {
         return ''
     }
@@ -39,8 +39,8 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Table of Contents
-  - [Description](#desciption)
-  - [Installation](#Installation)
+  - [Description](#description)
+  - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Tests](#tests)

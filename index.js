@@ -44,7 +44,7 @@ const questions = [
     },
     //License
     {
-        ype: 'input',
+        type: 'list',
         name: 'license',
         message: 'Select a license (if applicable) for your repository',
         choices: ['Apache 2.0', 'GNUGPLv3.0', 'MIT', 'Mozilla Public 2.0', 'the Unlicense' ]

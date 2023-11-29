@@ -65,7 +65,7 @@ To install inquirer, please use 'npm i inquirer@8.2.4' in terminal.
 
 ## Link to Video Walkthrough
 
-**Video:** [Link]()
+**Video:** [Link](https://youtu.be/UUy1rPqxzVw)
 
 ## Credits
 

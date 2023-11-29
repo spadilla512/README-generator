@@ -16,10 +16,10 @@
   node.js and inquirer
 
   ## Usage
-  The user can quickly and easily generate a README file by using a command-line application to allow more time working on a project
+  The user can quickly and easily generate a README file by using a command-line application to allow more time working  on a project
 
   ## Contribution
-  Create a pull request on this repo
+  Create a pull request to this repo
 
   ## Tests
   undefined
@@ -28,6 +28,6 @@
   Licensed under ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Questions
-  Can reach me at this email: spadilla512@gmail.com
+  Can reach me at this email: sarah512@gmail.com
   GitHub username: spadilla512
   GitHub link: https://github.com/spadilla512
